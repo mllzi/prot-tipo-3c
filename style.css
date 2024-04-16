@@ -70,6 +70,7 @@ body {
   padding: 40px;
   border-radius: 0 0 40px 40px;
 }
+
 .aba-conteudo.ativo{
   display:block;
 }
@@ -104,6 +105,13 @@ flex-wrap: wrap;
 .contador-digito-numero{
   font-size: 80px;
   margin: 0;
+}
+
+.contador-digito-texto{
+  color: var(--verde);
+  font-size: 20px;
+  margin: 0;
+
 }
 
 @media screen and (min-width: 768px) {
